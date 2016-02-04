@@ -1,7 +1,7 @@
-react-example
+[react-search.example](http://springload.github.io/react-search-example)
 =============
 
-> A simple example of using React to create a dynamic UI.
+> An example of using React with D3, Lunr.js and an autocomplete UI to build a keyboard-centric search experience. [Demo](http://springload.github.io/react-search-example)
 
 ## Installation
 
@@ -11,7 +11,7 @@ From the command-line:
 
 ```sh
 cd ~/Development/sites/
-git clone git@github.com:springload/react-example.git
+git clone git@github.com:springload/react-search-example.git
 cd react-example
 ```
 
