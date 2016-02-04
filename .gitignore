@@ -67,5 +67,3 @@ bower_components
 .idea
 .vagrant
 .anaconda
-public/js/site.js
-public/css/screen.css
