@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import Icon from 'react-svg-icon';
 
 import Modal from '../components/Modal';
 
@@ -22,6 +21,7 @@ export default React.createClass({
     getDefaultProps() {
         return {
             isOpen: false,
+            className: 'btn btn--block',
         };
     },
 
@@ -29,6 +29,12 @@ export default React.createClass({
         return {
             isOpen: this.props.isOpen,
         };
+    },
+
+    componentWillReceiveProps(nextProps) {
+        this.setState({
+            isOpen: nextProps.isOpen,
+        });
     },
 
     onToggleModal(isOpen, e) {
@@ -48,7 +54,10 @@ export default React.createClass({
         const { isOpen } = this.state;
 
         return (
-            <button id={id} className={className} onClick={this.onToggleModal.bind(this, true)}>
+            <div>
+                <button id={id} className={className} onClick={this.onToggleModal.bind(this, true)}>
+                    {label}
+                </button>
                 <Modal
                     title={modalTitle}
                     iconName={iconName}
@@ -57,10 +66,7 @@ export default React.createClass({
                 >
                     {children}
                 </Modal>
-
-                {iconName ? <Icon name={iconName}/> : null}
-                {label}
-            </button>
+            </div>
         );
     },
 });

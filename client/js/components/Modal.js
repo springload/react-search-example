@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import $ from 'jquery';
 import Modal from 'react-modal';
-import Icon from 'react-svg-icon';
 
 // Necessary for the modals to work.
 Modal.setAppElement(document.getElementById('mount'));
@@ -45,18 +44,15 @@ export default React.createClass({
     },
 
     render() {
-        const { title, iconName, children, isOpen, closeCallback } = this.props;
+        const { title, children, isOpen, closeCallback } = this.props;
 
         return (
-            <Modal key={title} isOpen={isOpen} closeTimeoutMS={300} onRequestClose={() => {}}>
-                <div className="modal">
+            <Modal key={title} isOpen={isOpen} closeTimeoutMS={1} onRequestClose={() => {}}>
+                <div className="modal modal__center">
                     <div className="modal__header [ grid grid-auto ]">
-                        <h2 className="three-quarters icon-text">
-                            {iconName ? <Icon name={iconName}/> : null}
-                            {title}
-                        </h2>
+                        <div className="three-quarters"></div>
                         <button className="btn modal__close one-quarter" onClick={closeCallback}>
-                            <Icon name="close"/>
+                            Close
                         </button>
                     </div>
                     <div className="modal__content">
