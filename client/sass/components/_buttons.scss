@@ -32,6 +32,9 @@ $padding: 1em;
     border-style: solid;
     border-width: 1px;
     border-radius: $padding / 4;
+    -webkit-user-select: none; /* for button */
+           -moz-user-select: none;
+            -ms-user-select: none;
     &,
     &:hover {
         text-decoration: none;   // [9]
@@ -61,4 +64,5 @@ $padding: 1em;
 
 .btn--block {
     width: 100%;
+    margin-top: 1rem;
 }

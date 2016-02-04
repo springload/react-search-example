@@ -25,7 +25,7 @@ $z-index-modal-content: 2;
 $color-modal-close-bg: #333;
 $color-modal-close-text: #fff;
 $color-modal-content-bg: #fff;
-$color-black-opacity-093: rgba(255, 255, 255, .93);
+$color-black-opacity-093: #fff;
 $color-dark-grey: #222;
 
 .u-body-modal-active {
@@ -82,40 +82,22 @@ $color-dark-grey: #222;
     }
 
     display: inline-block;
-    max-width: 32em;
-    min-width: 10.5em;
+    width: 32em;
     min-height: 6em;
     padding: 1em 2em;
     background: $color-modal-content-bg;
     animation: affordance-in .5s $easing-circ .3s backwards;
+    height: 100%;
 }
 
 
 .modal__close {
-    @include medium {
-        font-size: 2em;
-    }
-
-    position: absolute;
-    top: 0;
-    right: 0;
+    padding: 2rem;
+    background-color: transparent;
+    text-align: right;
     z-index: $z-index-modal-content;
-    padding: .9rem 1.35rem 1.1rem;
-    font-size: 1em;
-    line-height: 1;
-    color: $color-modal-close-text;
     cursor: pointer;
-    background: $color-modal-close-bg;
     animation: affordance-in-right .5s $easing-circ .25s backwards;
-
-    &:hover {
-        color: $color-white;
-        background: darken($color-modal-close-bg, 5%);
-    }
-
-    &:active {
-        background: $color-dark-grey;
-    }
 }
 
 
