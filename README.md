@@ -62,3 +62,9 @@ git push origin gh-pages
 # And get back to master!
 git checkout master
 ```
+
+## Documentation
+
+Datasets taken from https://github.com/vincentarelbundock/Rdatasets.
+
+This project relies on a modified version of `react-autosuggest` so that the suggestions are always displayed.
