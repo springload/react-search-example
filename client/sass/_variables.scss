@@ -45,11 +45,11 @@ $color-grey-cement: #8f8f8f;
 // ----------------------------------------------------------------------------
 
 
-$font-family-default-sans-serif: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-default-sans-serif: -apple-system, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-default-serif:  'Georgia', 'Times New Roman', Times, serif;
 
 // Site specfic fonts
-$font-family-sans-serif: 'Open Sans', $font-family-default-sans-serif;
+$font-family-sans-serif: $font-family-default-sans-serif;
 $font-family-serif: $font-family-default-serif;
 
 $font-family-primary: $font-family-sans-serif;
