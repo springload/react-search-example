@@ -41,7 +41,7 @@ $padding: 1em;
     }
     &:active,
     &:focus {
-        outline: none;
+        outline: solid 3px $color-focus;
     }
 }
 
