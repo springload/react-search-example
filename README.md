@@ -33,8 +33,12 @@ npm install
 ```sh
 # Start the server and the development tools.
 npm run start
+# Run the project within Electron
+npm run start:electron
 # Builds frontend assets.
 npm run build
+# Packages binaries with Electron
+npm run build:electron
 # Runs linting.
 npm run lint
 # Runs tests.
@@ -65,6 +69,7 @@ git checkout master
 
 ## Documentation
 
-Datasets taken from https://github.com/vincentarelbundock/Rdatasets.
+- Datasets taken from https://github.com/vincentarelbundock/Rdatasets.
+- Icon made with 📈 and 📉 from http://emojione.com/.
 
 This project relies on a modified version of `react-autosuggest` so that the suggestions are always displayed.
