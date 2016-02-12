@@ -69,3 +69,4 @@ bower_components
 .anaconda
 public/js/site.js
 public/css/screen.css
+dist/
