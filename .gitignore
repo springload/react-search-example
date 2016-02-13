@@ -67,3 +67,4 @@ bower_components
 .idea
 .vagrant
 .anaconda
+dist/

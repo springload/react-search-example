@@ -27,7 +27,7 @@
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["index.html","8875c8b843d529044e322571c0d0616b"],["public/css/screen.css","a5019628974a851428cdb90b9a6dd907"],["public/js/site.js","6102fa10737398a5aff1e3d4ebdd4fc5"]];
+var PrecacheConfig = [["index.html","50f1eeb5178ccfabb589a10e89d9e13f"],["public/css/screen.css","21a9b8d562a982be5703df20bd45ba09"],["public/js/site.js","6102fa10737398a5aff1e3d4ebdd4fc5"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1-react-search-example-' + (self.registration ? self.registration.scope : '') + '-';
 

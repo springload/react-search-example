@@ -1,7 +1,7 @@
-[react-search.example](http://springload.github.io/react-search-example)
+[react-search-example](https://springload.github.io/react-search-example/)
 =============
 
-> An example of using React with D3, Lunr.js and an autocomplete UI to build a keyboard-centric search experience. [Demo](http://springload.github.io/react-search-example)
+> An example of using React with D3, Lunr.js and an autocomplete UI to build a keyboard-centric search experience. Oh and service workers for offline caching. [Demo](https://springload.github.io/react-search-example/)
 
 ## Installation
 
@@ -33,8 +33,12 @@ npm install
 ```sh
 # Start the server and the development tools.
 npm run start
+# Run the project within Electron
+npm run start:electron
 # Builds frontend assets.
 npm run build
+# Packages binaries with Electron
+npm run build:electron
 # Runs linting.
 npm run lint
 # Runs tests.
@@ -62,3 +66,10 @@ git push origin gh-pages
 # And get back to master!
 git checkout master
 ```
+
+## Documentation
+
+- Datasets taken from https://github.com/vincentarelbundock/Rdatasets.
+- Icon made with 📈 and 📉 from http://emojione.com/.
+
+This project relies on a modified version of `react-autosuggest` so that the suggestions are always displayed.
