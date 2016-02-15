@@ -1,10 +1,10 @@
 {
-  "name": "frontend-starter-kit",
-  "version": "1.0.0",
+  "name": "react-search-example",
+  "version": "0.2.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/springload/frontend-starter-kit"
+    "url": "https://github.com/springload/react-search-example"
   },
   "engines": {
     "node": "4.2.2"
