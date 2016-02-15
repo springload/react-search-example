@@ -75,6 +75,6 @@
     "svg": "gulp svg",
     "watch": "gulp watch",
     "start:electron": "electron .",
-    "build:electron": "npm run dist && electron-packager . 'Electron Data' --out=dist --ignore='(dist|node_modules|gulp)/' --prune --asar --all --version=0.36.7 --icon raw/data-search-icon"
+    "build:electron": "npm run dist && electron-packager . 'Electron Data' --out=dist --ignore='(dist|node_modules|gulp)/' --prune --asar --all --version=0.36.7 --icon raw/data-search-icon --overwrite"
   }
 }

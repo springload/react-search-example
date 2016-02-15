@@ -1,7 +1,7 @@
 [react-search-example](https://springload.github.io/react-search-example/)
 =============
 
-> An example of using React with D3, Lunr.js and an autocomplete UI to build a keyboard-centric search experience. Oh and service workers for offline caching, and Electron just because. [Demo](https://springload.github.io/react-search-example/)
+> :chart_with_downwards_trend::chart_with_upwards_trend: An example of using React with D3, Lunr.js and an autocomplete UI to build an accessible keyboard-centric search experience. Also – service workers for offline caching, and desktop app with Electron. [Demo](https://springload.github.io/react-search-example/)
 
 [![Screenshot](screenshot.png)](https://springload.github.io/react-search-example/)
 
