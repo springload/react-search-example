@@ -57,19 +57,19 @@ export default React.createClass({
         }
 
         const margin = {
-            top: 20,
-            right: 60,
-            bottom: 60,
-            left: 100,
+            top: 0,
+            right: 0,
+            bottom: 40,
+            left: 0,
         };
 
-        const elWidth = 480;
-        const elHeight = 320;
+        const elWidth = Math.max(el.offsetWidth, 300);
+        const elHeight = elWidth / 1.5;
 
         const chartProps = {
             margin: margin,
             width: elWidth - margin.left - margin.right,
-            height: elHeight - margin.top - (margin.bottom * 2) - 50,
+            height: elHeight - margin.top - margin.bottom,
         };
 
         // Initialise the chart, then render it without transitions.
